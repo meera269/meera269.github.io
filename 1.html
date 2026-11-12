@@ -1,0 +1,894 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Meerab Khan - Data Analyst Portfolio">
+
+  <title>Meerab Khan | Data Analyst Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap.css">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="1.css">
+
+</head>
+
+<body>
+
+  <!-- PAGE LOADER -->
+  <div id="pageLoader" class="page-loader">
+    <div class="loader-mark">MK<span>.</span></div>
+    <div class="loader-track"><span></span></div>
+  </div>
+
+  <!-- SCROLL PROGRESS -->
+  <div class="scroll-progress">
+    <span id="scrollProgress"></span>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
+
+    <div class="container">
+
+      <a class="navbar-brand" href="#home">
+        MK<span>.</span>
+      </a>
+
+      <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navLinks"
+        aria-controls="navLinks"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+
+      <div class="collapse navbar-collapse" id="navLinks">
+
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link contact-nav" href="#contact">
+              Let's talk
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+
+  <main>
+
+    <!-- ================= HOME SECTION ================= -->
+
+    <section id="home" class="hero-section">
+
+      <div class="container">
+
+        <div class="row align-items-center min-vh-100 gy-5">
+
+          <div class="col-lg-8">
+
+            <div class="eyebrow">
+              <span class="status-dot"></span>
+              DATA ANALYST · SOFTWARE ENGINEERING STUDENT
+            </div>
+
+            <p class="hero-kicker">Hello, I'm</p>
+
+            <h1>
+              Meerab <span>Khan.</span>
+            </h1>
+
+            <h2 class="hero-subtitle">
+
+              I turn data into
+
+              <span class="typed-text" id="typedText">
+                meaningful insights.
+              </span>
+
+              <span class="typing-cursor">|</span>
+
+            </h2>
+
+            <p class="hero-description">
+
+              A curious problem-solver interested in data analytics,
+              machine learning and building technology that helps
+              people make better decisions.
+
+            </p>
+
+            <div class="d-flex flex-wrap gap-3 mt-4">
+
+              <a class="btn btn-primary-custom" href="#projects">
+                Explore my work
+                <i class="bi bi-arrow-down-right"></i>
+              </a>
+
+              <a class="btn btn-outline-custom" href="#contact">
+                Get in touch
+              </a>
+
+            </div>
+
+            <div class="hero-meta">
+
+              <span>
+                <i class="bi bi-geo-alt"></i>
+                Lahore, Pakistan
+              </span>
+
+              <span>
+                <i class="bi bi-envelope"></i>
+                <a href="mailto:meerabkhanum12@gmail.com">
+                  Email me
+                </a>
+              </span>
+
+            </div>
+
+            <div class="hero-highlights">
+
+              <div>
+                <strong data-count="3">0</strong>
+                <span>Professional roles</span>
+              </div>
+
+              <div>
+                <strong data-count="2">0</strong>
+                <span>Featured projects</span>
+              </div>
+
+              <div>
+                <strong data-count="4">0</strong>
+                <span>Core skill areas</span>
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="col-lg-4">
+
+            <div class="hero-card">
+
+              <div class="orbit orbit-one"></div>
+              <div class="orbit orbit-two"></div>
+
+              <div class="monogram">
+                M<span>K</span>
+              </div>
+
+              <div class="floating-tag tag-top">
+                <i class="bi bi-bar-chart-line"></i>
+                Data & Insights
+              </div>
+
+              <div class="floating-tag tag-bottom">
+                <i class="bi bi-code-slash"></i>
+                Web Development
+              </div>
+
+              <div class="hero-card-caption">
+                Curiosity powered by data.
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <a href="#about" class="scroll-cue">
+        SCROLL TO EXPLORE
+        <i class="bi bi-arrow-down"></i>
+      </a>
+
+    </section>
+
+
+    <!-- ================= ABOUT SECTION ================= -->
+
+    <section id="about" class="section-padding">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span>01 / ABOUT</span>
+
+          <h2>
+            A little about <em>me.</em>
+          </h2>
+
+        </div>
+
+        <div class="row g-5">
+
+          <div class="col-lg-7">
+
+            <p class="about-lead">
+
+              I'm a Software Engineering student at Hajvery University
+              with a strong interest in Data Analytics, Machine Learning
+              and Project Management.
+
+            </p>
+
+            <p class="body-copy">
+
+              I have experience cleaning and modeling operational data
+              with Python, SQL and Excel, building interactive dashboards,
+              and supporting analytics teams.
+
+            </p>
+
+            <p class="body-copy">
+
+              I also bring frontend development experience, allowing me
+              to understand both the data behind a product and the
+              interface people use.
+
+            </p>
+
+          </div>
+
+
+          <div class="col-lg-5">
+
+            <div class="quick-facts">
+
+              <div class="fact">
+
+                <span class="fact-number">01</span>
+
+                <div>
+                  <strong>Data Analytics</strong>
+                  <small>Cleaning · Modeling · Visualization</small>
+                </div>
+
+              </div>
+
+
+              <div class="fact">
+
+                <span class="fact-number">02</span>
+
+                <div>
+                  <strong>Team Leadership</strong>
+                  <small>Mentoring · Collaboration · Delivery</small>
+                </div>
+
+              </div>
+
+
+              <div class="fact">
+
+                <span class="fact-number">03</span>
+
+                <div>
+                  <strong>Frontend Development</strong>
+                  <small>Responsive and interactive interfaces</small>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS SECTION ================= -->
+
+    <section id="skills" class="section-padding section-muted">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span>02 / TOOLKIT</span>
+
+          <h2>
+            Skills & <em>tools.</em>
+          </h2>
+
+        </div>
+
+        <div class="row g-4">
+
+
+          <!-- DATA ANALYTICS -->
+
+          <div class="col-md-6 col-lg-3">
+
+            <div class="skill-card">
+
+              <div class="skill-icon">
+                <i class="bi bi-graph-up-arrow"></i>
+              </div>
+
+              <h3>Data Analytics</h3>
+
+              <ul>
+                <li>Python & Anaconda</li>
+                <li>SQL</li>
+                <li>Microsoft Excel</li>
+                <li>Power BI</li>
+                <li>Data Cleaning & Modeling</li>
+                <li>Data Visualization</li>
+              </ul>
+
+            </div>
+
+          </div>
+
+
+          <!-- FRONTEND -->
+
+          <div class="col-md-6 col-lg-3">
+
+            <div class="skill-card">
+
+              <div class="skill-icon">
+                <i class="bi bi-code-slash"></i>
+              </div>
+
+              <h3>Frontend</h3>
+
+              <ul>
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript</li>
+                <li>Angular</li>
+                <li>TypeScript</li>
+                <li>Responsive Web Design</li>
+              </ul>
+
+            </div>
+
+          </div>
+
+
+          <!-- LEADERSHIP -->
+
+          <div class="col-md-6 col-lg-3">
+
+            <div class="skill-card">
+
+              <div class="skill-icon">
+                <i class="bi bi-people"></i>
+              </div>
+
+              <h3>Leadership</h3>
+
+              <ul>
+                <li>Team Management</li>
+                <li>Team Leadership</li>
+                <li>Strategic Communication</li>
+                <li>Mentorship</li>
+              </ul>
+
+            </div>
+
+          </div>
+
+
+          <!-- TOOLS -->
+
+          <div class="col-md-6 col-lg-3">
+
+            <div class="skill-card">
+
+              <div class="skill-icon">
+                <i class="bi bi-terminal"></i>
+              </div>
+
+              <h3>Tools & Platforms</h3>
+
+              <ul>
+                <li>Ubuntu (Linux)</li>
+                <li>Git & GitHub</li>
+                <li>Flex Compiler Tool</li>
+                <li>Microsoft Azure Certified</li>
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= EXPERIENCE SECTION ================= -->
+
+    <section id="experience" class="section-padding">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span>03 / EXPERIENCE</span>
+
+          <h2>
+            Where I've <em>worked.</em>
+          </h2>
+
+        </div>
+
+        <div class="timeline">
+
+
+          <!-- EXPERIENCE 1 -->
+
+          <article class="timeline-item">
+
+            <div class="timeline-date">
+              JUL 2026 — SEP 2026
+            </div>
+
+            <div class="timeline-content">
+
+              <h3>Lead Data Analyst</h3>
+
+              <h4>Yahlum Solutions · Lahore</h4>
+
+              <ul>
+                <li>Guided and mentored data analytics interns.</li>
+                <li>Reviewed team data pipelines and analysis.</li>
+                <li>Helped solve complex data problems.</li>
+              </ul>
+
+            </div>
+
+          </article>
+
+
+          <!-- EXPERIENCE 2 -->
+
+          <article class="timeline-item">
+
+            <div class="timeline-date">
+              JUN 2026 — PRESENT
+            </div>
+
+            <div class="timeline-content">
+
+              <h3>Data Analyst Intern</h3>
+
+              <h4>Decode Labs</h4>
+
+              <ul>
+                <li>Extract, clean and manipulate data using Python and SQL.</li>
+                <li>Perform exploratory data analysis in Anaconda.</li>
+                <li>Present analytical reports and visualizations.</li>
+              </ul>
+
+            </div>
+
+          </article>
+
+
+          <!-- EXPERIENCE 3 -->
+
+          <article class="timeline-item">
+
+            <div class="timeline-date">
+              NOV 2025 — APR 2026
+            </div>
+
+            <div class="timeline-content">
+
+              <h3>Frontend Web Developer</h3>
+
+              <h4>Hardstone Enterprises · Lahore</h4>
+
+              <ul>
+                <li>Developed interactive UI components using Angular and TypeScript.</li>
+                <li>Created responsive web pages using HTML and CSS.</li>
+              </ul>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS SECTION ================= -->
+
+    <section id="projects" class="section-padding section-muted">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span>04 / SELECTED WORK</span>
+
+          <h2>
+            Projects & <em>practice.</em>
+          </h2>
+
+        </div>
+
+        <div class="row g-4">
+
+
+          <!-- PROJECT 1 -->
+
+          <div class="col-lg-6">
+
+            <article class="project-card">
+
+              <div class="project-visual excel-visual">
+
+                <div class="mini-dashboard">
+
+                  <div class="mini-top">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+
+                  <div class="mini-chart">
+                    <i style="height:35%"></i>
+                    <i style="height:62%"></i>
+                    <i style="height:48%"></i>
+                    <i style="height:82%"></i>
+                    <i style="height:68%"></i>
+                    <i style="height:95%"></i>
+                  </div>
+
+                  <div class="mini-lines">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+
+                </div>
+
+                <span class="visual-label">
+                  EXCEL / BUSINESS INTELLIGENCE
+                </span>
+
+              </div>
+
+
+              <div class="project-info">
+
+                <div class="project-topline">
+                  <span>JUNE 2026</span>
+                  <span>01</span>
+                </div>
+
+                <h3>
+                  Interactive Excel Business Analytics Dashboard
+                </h3>
+
+                <p>
+                  Designed dynamic Excel dashboards using advanced formulas,
+                  Pivot Tables and Slicers to track business performance metrics.
+                </p>
+
+                <div class="tag-list">
+                  <span>Microsoft Excel</span>
+                  <span>Pivot Tables</span>
+                  <span>Dashboards</span>
+                </div>
+
+              </div>
+
+            </article>
+
+          </div>
+
+
+          <!-- PROJECT 2 -->
+
+          <div class="col-lg-6">
+
+            <article class="project-card">
+
+              <div class="project-visual pipeline-visual">
+
+                <div class="pipeline-flow">
+
+                  <div class="pipeline-node">
+                    <i class="bi bi-database"></i>
+                    <small>RAW DATA</small>
+                  </div>
+
+                  <i class="bi bi-arrow-right"></i>
+
+                  <div class="pipeline-node">
+                    <i class="bi bi-gear"></i>
+                    <small>PROCESS</small>
+                  </div>
+
+                  <i class="bi bi-arrow-right"></i>
+
+                  <div class="pipeline-node">
+                    <i class="bi bi-bar-chart"></i>
+                    <small>INSIGHTS</small>
+                  </div>
+
+                </div>
+
+                <span class="visual-label">
+                  PYTHON / SQL / DATA PIPELINE
+                </span>
+
+              </div>
+
+
+              <div class="project-info">
+
+                <div class="project-topline">
+                  <span>MAY 2026</span>
+                  <span>02</span>
+                </div>
+
+                <h3>
+                  Customer & Sales Data Pipeline
+                </h3>
+
+                <p>
+                  Built data processing workflows using Python and SQL
+                  to clean raw data and generate operational insights.
+                </p>
+
+                <div class="tag-list">
+                  <span>Python</span>
+                  <span>SQL</span>
+                  <span>Data Cleaning</span>
+                </div>
+
+              </div>
+
+            </article>
+
+          </div>
+
+        </div>
+
+        <p class="project-note">
+          <i class="bi bi-info-circle"></i>
+          Project descriptions are based on the work listed in my CV.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= EDUCATION SECTION ================= -->
+
+    <section id="education" class="section-padding">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span>05 / EDUCATION</span>
+
+          <h2>
+            Learning is a <em>journey.</em>
+          </h2>
+
+        </div>
+
+        <div class="education-card">
+
+          <div class="education-mark">
+            <i class="bi bi-mortarboard"></i>
+          </div>
+
+          <div class="education-details">
+
+            <span class="education-date">
+              JAN 2023 — OCT 2028
+            </span>
+
+            <h3>
+              Bachelor of Science in Software Engineering
+            </h3>
+
+            <p>
+              Hajvery University · Lahore, Pakistan
+            </p>
+
+            <div class="tag-list">
+              <span>Database Systems</span>
+              <span>Data Analytics</span>
+              <span>OOP</span>
+              <span>Data Structures</span>
+              <span>Numerical Methods</span>
+              <span>Compiler Construction</span>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- CERTIFICATION -->
+
+        <div class="certification">
+
+          <i class="bi bi-patch-check"></i>
+
+          <div>
+            <strong>Microsoft Azure Certified</strong>
+            <small>Cloud Infrastructure</small>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT SECTION ================= -->
+
+    <section id="contact" class="contact-section section-padding">
+
+      <div class="container">
+
+        <div class="contact-inner">
+
+          <span class="contact-eyebrow">
+            06 / CONTACT
+          </span>
+
+          <h2>
+            Have a project or opportunity in mind?
+          </h2>
+
+          <p>
+            I'd love to connect, exchange ideas and explore
+            how I can contribute.
+          </p>
+
+          <a href="mailto:meerabkhanum12@gmail.com"
+            class="btn btn-light-custom">
+
+            Say hello
+            <i class="bi bi-arrow-up-right"></i>
+
+          </a>
+
+
+          <div class="contact-links">
+
+            <a href="mailto:meerabkhanum12@gmail.com">
+              <i class="bi bi-envelope"></i>
+              meerabkhanum12@gmail.com
+            </a>
+
+            <a href="tel:+923266091715">
+              <i class="bi bi-telephone"></i>
+              +92 326 6091715
+            </a>
+
+            <a href="https://linkedin.com/in/meerabkhan-25b489404"
+              target="_blank"
+              rel="noopener noreferrer">
+
+              <i class="bi bi-linkedin"></i>
+              LinkedIn Profile
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer class="footer">
+
+    <div class="container d-flex flex-wrap justify-content-between gap-2">
+
+      <span>
+        © <span id="year"></span> Meerab Khan.
+        Built with HTML, CSS, Bootstrap & JavaScript.
+      </span>
+
+      <a href="#home">
+        Back to top ↑
+      </a>
+
+    </div>
+
+  </footer>
+
+
+  <!-- BACK TO TOP BUTTON -->
+
+  <button id="backToTop" class="back-to-top"
+    aria-label="Back to top">
+
+    <i class="bi bi-arrow-up"></i>
+
+  </button>
+
+
+  <!-- ================= JAVASCRIPT FILES ================= -->
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <!-- Bootstrap JavaScript (Local File) -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="1.js"></script>
+
+</body>
+</html>
